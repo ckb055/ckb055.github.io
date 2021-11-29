@@ -2232,8 +2232,8 @@ input[type="radio"] + label:before {
 .image.avatar {
   width: 180%;
   border-radius: 100%;
-  right: 50px;
-  position: relative;
+  right: 50px !important;
+  position: relative !important;
 }
 
 .image.avatar:before {
