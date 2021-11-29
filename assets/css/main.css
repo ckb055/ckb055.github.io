@@ -2230,10 +2230,8 @@ input[type="radio"] + label:before {
 }
 
 .image.avatar {
-  width: 180%;
   border-radius: 100%;
-  right: 50px !important;
-  position: relative !important;
+  width: 100%;
 }
 
 .image.avatar:before {
@@ -2243,6 +2241,10 @@ input[type="radio"] + label:before {
 .image.avatar img {
   border-radius: 100%;
   width: 100%;
+  width: 180%;
+  border-radius: 100%;
+  right: 50px !important;
+  position: relative !important;
 }
 
 /* List */
